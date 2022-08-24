@@ -35,15 +35,46 @@
   </head>
   <body class="font-['ShopifySans']">
     <header class="relative bg-skin pb-16">
-      <nav class="flex sw-[90%] px-4 py-8">
-        <div class="nav-item">
+      <nav class="flex sw-[90%] px-4 py-8 justify-between">
+        <div class="nav-item flex flex-row items-center gap-8">
           <img
-            class="w-32 md:w-64"
+            class="w-32 lg:w-64"
             src="assets/shopify-logo.png"
             alt="shopify"
           />
+          <div class="item-list space-x-8 lg:flex hidden">
+            <span class="text-gray-700 text-xl flex items-center gap-1">
+              Start <i class="fa-solid fa-angle-down text-xs"></i>
+            </span>
+            <span class="text-gray-700 text-xl flex items-center gap-1">
+              Sell <i class="fa-solid fa-angle-down text-xs"></i>
+            </span>
+            <span class="text-gray-700 text-xl flex items-center gap-1">
+              Market <i class="fa-solid fa-angle-down text-xs"></i>
+            </span>
+            <span class="text-gray-700 text-xl flex items-center gap-1">
+              Manage <i class="fa-solid fa-angle-down text-xs"></i>
+            </span>
+          </div>
         </div>
-        <div class="absolute flex gap-4 right-0 top-[2.5rem] hambruger my-auto">
+      
+        <div class="item-2 hidden lg:flex gap-4 items-center">
+          <span class="text-gray-700 text-xl flex items-center gap-1">
+            Pricing
+          </span>
+          <span class="text-gray-700 text-xl flex items-center gap-1">
+            Learn <i class="fa-solid fa-angle-down text-xs"></i>
+          </span>
+          <span class="text-gray-700 text-xl flex items-center gap-1">
+            Log in
+          </span>
+          <button
+          class="shadow-lg rounded-lg bg-lightgreen text-white w-44 text-xl py-4 font-bold px-8 max-h-[60px]"
+        >
+          Try for free
+        </button>
+        </div>
+        <div class="absolute flex gap-4 right-0 top-[2.5rem] hambruger my-auto lg:hidden">
           <span class="text-xl">Log in</span>
           <i class="w-16 fa-solid fa-bars text-black text-2xl"></i>
         </div>
@@ -57,7 +88,7 @@
             Try one of the most powerful platforms on the market for free. No
             technical knowledge needed.
           </p>
-          <div class="buttons md:flex gap-4">
+          <div class="buttons md:flex">
           <input
             type="text"
             class="rounded-lg pl-4 focus:outline-4 focus:outline-midgreen bg-white w-full py-4 px-1 max-h-[56px] min-w-[300px]"
@@ -194,7 +225,7 @@
       <h2 class="text-3xl text-greyish text-center md:text-4xl">
         With you wherever you’re going
       </h2>
-      <p class="text-[#6b7177] text-center text-xl md:text-2xl md:px-96">
+      <p class="text-[#6b7177] text-center text-xl md:text-2xl lg:px-96">
         One platform with all the ecommerce and point of sale features you need to start, run, and grow your business.
       </p>
     </div>
