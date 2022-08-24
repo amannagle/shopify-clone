@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopify</title>
+    <link
+      href="//db.onlinewebfonts.com/c/ad26818d844de4534fd78bb03028ca79?family=Shopify+Sans+Web+Medium"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              greyish:"#212326",
+              darkgreen: "#002e25",
+              lightgreen: "#008060",
+              gray: "#626668",
+              midgreen: "#004c3f",
+              skin: "#fbf7ed",
+              greenish:'#f3fcf4'
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body class="font-['ShopifySans']">
+    <header class="relative bg-skin pb-16">
+      <nav class="flex sw-[90%] px-4 py-8">
+        <div class="nav-item">
+          <img
+            class="w-32 md:w-64"
+            src="assets/shopify-logo.png"
+            alt="shopify"
+          />
+        </div>
+        <div class="absolute flex gap-4 right-0 top-[2.5rem] hambruger my-auto">
+          <span class="text-xl">Log in</span>
+          <i class="w-16 fa-solid fa-bars text-black text-2xl"></i>
+        </div>
+      </nav>
+      <section class="header-text px-8 flex flex-col gap-16 md:flex-row md:items-center">
+        <div class="text space-y-4">
+          <h1 class="mt-16 text-left font-bold text-3xl text-midgreen mx-auto md:text-4xl">
+            The easiest way to sell online in India
+          </h1>
+          <p class="text-green  md:text-2xl">
+            Try one of the most powerful platforms on the market for free. No
+            technical knowledge needed.
+          </p>
+          <div class="buttons md:flex gap-4">
+          <input
+            type="text"
+            class="rounded-lg pl-4 focus:outline-4 focus:outline-midgreen bg-white w-full py-4 px-1 max-h-[56px] min-w-[300px]"
+            placeholder="Enter Your Email Address"
+          />
+          <button
+            class="shadow-lg rounded-lg bg-lightgreen text-white w-full text-xl py-4 font-bold px-8 max-h-[60px] min-w-[200px]"
+          >
+            Try for free
+          </button>
+        </div>
+          <p class="text-left text-xs md:text-sm">
+            Try Shopify free for 14 days, no credit card required. By entering
+            your email, you agree to receive marketing emails from Shopify.
+          </p>
+        </div>
+        <div class="img">
+          <img
+            src="assets/intro-image.webp"
+            alt="intro-image"
+            class="w-[100%]"
+          />
+        </div>
+      </section>
+    </header>
+    <section
+      class="bring-your-business flex flex-col bg-midgreen px-8 py-8 gap-8"
+    >
+      <div class="heading-and-explore">
+        <div class="heading space-y-4">
+          <h1 class="text-white text-2xl md:text-4xl">Bring your business online</h1>
+          <p class="text-sm text-left text-white md:text-xl">
+            Create an ecommerce website backed by powerful tools that help you
+            find customers, drive sales, and manage your day-to-day.
+          </p>
+        </div>
+        <div class="right-text md:mt-8">
+          <span class="text-white text-sm md:text-base">
+            Explore More Examples <i class="fa-solid fa-arrow-right"></i>
+          </span>
+        </div>
+      </div>
+      <div class="images-div flex gap-8 flex-col items-center md:flex-row">
+        <div class="image-text-div flex flex-col basis-[100%]">
+          <img src="assets/home-example-small-1.webp " alt="example1" />
+          <h2 class="text-xl font-bold  text-white">
+            Food & Drink
+          </h2>
+          <span class="font-sm  text-white">
+            Blue Tokai
+          </span>
+        </div>
+        <div class="image-text-div flex flex-col basis-[100%]">
+          <img src="assets/home-example-small-2.webp" alt="example2" />
+          <h2 class="text-xl font-bold text-white">
+            Jewelry
+          </h2>
+          <span class="font-sm  text-white">
+            Quirksmith
+          </span>
+        </div>
+        <div class="image-text-div flex flex-col basis-[100%]">
+          <img src="assets/home-example-small-3.webp" alt="example3" />
+          <h2 class="text-xl font-bold  text-white">
+            Electronics
+          </h2>
+          <span class="font-sm  text-white">
+            Crossbeats
+          </span>
+        </div>
+        <div class="image-text-div flex flex-col  basis-[100%]">
+          <img src="assets/home-example-small-4.webp" alt="example4" />
+          <h2 class="text-xl font-bold  text-white">
+            Beauty
+          </h2>
+          <span class="font-sm  text-white">
+            Mcaffeine
+          </span>
+        </div>
+        <div class="image-text-div flex flex-col  basis-[100%]">
+          <img src="assets/home-example-small-5.webp" class="w-[100%]" alt="example4" />
+          <h2 class="text-xl font-bold  text-white">
+            Fashion
+          </h2>
+          <span class="font-sm  text-white">
+           Bunaai
+          </span>
+        </div>
+      </div>
+      <div class="path-forward mt-16">
+        <h1 class="text-white font-bold text-2xl md:text-4xl">Take the best path forward</h1>
+        <div class="card-grid flex flex-col gap-8 my-8 md:flex-row">
+          <div class="card space-y-4">
+            <img src="assets/shopify-icon-1.png" class="w-8">
+            <h2 class="text-white font-bold text-2xl">
+              Start an online business
+            </h2>
+            <p class="text-white text-base md:text-xl">
+              Create a business, whether you’ve got a fresh idea or are looking for a new way to make money.
+            </p>
+          </div>
+          <div class="card space-y-4">
+            <img src="assets/shopify-icon-2.png" class="w-8">
+            <h2 class="text-white font-bold text-2xl">
+              Move your business online
+            </h2>
+            <p class="text-white text-base md:text-xl">
+              Turn your retail store into an online store and keep serving customers without missing a beat.
+            </p>
+          </div>
+          <div class="card space-y-4">
+            <img src="assets/shopify-icon-3.png" class="w-8">
+            <h2 class="text-white font-bold text-2xl">
+              Switch to Shopify
+            </h2>
+            <p class="text-white text-base md:text-xl">
+              Bring your business to Shopify, no matter which ecommerce platform you’re currently using.
+            </p>
+          </div>
+          <div class="card space-y-4">
+            <img src="assets/shopify-icon-3.png" class="w-8">
+            <h2 class="text-white font-bold text-2xl">
+              Hire a Shopify expert
+            </h2>
+            <p class="text-white text-base md:text-xl">
+              Get set up with the help of a trusted freelancer or agency from the Shopify Experts Marketplace.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="with-wherever bg-white px-4 py-16 space-y-16 ">
+      <div class="header space-y-8 mb-32">
+      <h2 class="text-3xl text-greyish text-center md:text-4xl">
+        With you wherever you’re going
+      </h2>
+      <p class="text-[#6b7177] text-center text-xl md:text-2xl px-96">
+        One platform with all the ecommerce and point of sale features you need to start, run, and grow your business.
+      </p>
+    </div>
+    <div class="sell-1 flex flex-col gap-8 md:flex-row-reverse md:items-center md:w-[80%] md:mx-auto">
+      <div class="text space-y-4 flex flex-col md:basis-[100%]">
+      <h2 class="text-grey text-2xl md:text-4xl">
+        Sell Everywhere
+      </h2>
+      <p class="text-base text-[#6b7177] md:text-2xl">
+        Use one platform to sell products to anyone, anywhere—in person with Point of Sale and online through your website, social media, and online marketplaces.
+      </p>
+      <span class="text-lightgreen text-base font-bold md:text-xl">
+        Explore ways to sell <i class="fa-solid fa-arrow-right"></i>
+      </span>
+    </div>
+    <div class="img md:basis-[80%]">
+      <img src="assets/sell-animation-gif.gif" class="w-[95%]">
+    </div>
+    </div>
+    <div class="sell-2 flex flex-col gap-8 md:flex-row md:items-center md:w-[80%] md:mx-auto">
+      <div class="text space-y-4 flex flex-col md:basis-[100%]">
+        <h2 class="text-grey text-2xl md:text-4xl">
+          Market Your Business
+        </h2>
+        <p class="text-base text-[#6b7177] md:text-2xl">
+          Take the guesswork out of marketing with built-in tools that help you create, execute, and analyze digital marketing campaigns.
+        </p>
+        <span class="text-lightgreen text-base font-bold md:text-xl">
+          Explore how to market your business <i class="fa-solid fa-arrow-right"></i>
+        </span>
+      </div>
+      <div class="img md:basis-[100%]">
+        <img src="assets/market-small.webp" class="w-[95%]">
+      </div>
+    </div>
+    <div class="sell-2 flex flex-col gap-8 md:flex-row-reverse md:items-center md:w-[80%] md:mx-auto">
+      <div class="text space-y-4 flex flex-col md:basis-[100%] ">
+        <h2 class="text-grey text-2xl md:text-4xl">
+          Manage Everything
+        </h2>
+        <p class="text-base text-[#6b7177] md:text-2xl">
+          Gain the insights you need to grow—use a single dashboard to manage orders, shipping, and payments anywhere you go.
+        </p>
+        <span class="text-lightgreen text-base font-bold md:text-xl">
+          Explore how to manage your business <i class="fa-solid fa-arrow-right"></i>
+        </span>
+      </div>
+      <div class="img md:basis-[100%]">
+        <img src="assets/manage-small.png" class="w-[95%]">
+      </div>
+    </div>
+    </section>
+    <section class="explore bg-greenish py-16 px-4">
+      <div class="header my-16">
+        <h1 class="text-midgreen text-2xl">
+          Explore more from Shopify in India
+        </h1>
+      </div>
+      <div class="text-image flex flex-col bg-white">
+        <div class="image">
+        <img src="assets/india-experts-small.webp" class="w-[100%]">
+      </div>
+      <div class="text px-4 py-8 space-y-4">
+        <h2 class="text-sm font-bold text-grey">
+          START
+        </h2>
+        <p class="text-grey">
+          Launch your store with the help of a Shopify Expert
+        </p>
+        <p class="text-grey text-sm">
+          Find hundreds of experts from India ready to help you get your store up and running, from choosing a theme to building a fully customized site.
+        </p>
+        <span class="text-lightgreen text-base font-bold mt-8">
+          Browse experts in India <i class="fa-solid fa-arrow-right"></i>
+        </span>
+      </div>
+      </div>
+    </section>
+    <section class="empower  bg-white py-8 px-4 flex flex-col space-y-8">
+      <h2 class="text-2xl text-gray-900">
+        Empowering Independent business owners everywheres
+      </h2>
+      <p class="text-base text-gray-900">
+        Millions of businesses in 175 countries around the world have made over $496 billion USD in sales using Shopify.
+      </p>
+      <span class="text-lightgreen text-base font-bold mt-8">
+        Learn more about Shopify <i class="fa-solid fa-arrow-right"></i>
+      </span>
+      <img src="assets/earth.png">
+    </section>
+    <section class="alicia bg-white px-4">
+      <div class="flex flex-col">
+      <div class="img">
+        <img src="assets/alicia-souza-testimonial.jpg" class="w-[100%]">
+      </div>
+      <div class="text bg-darkgreen text-2xl flex flex-col text-white px-10 py-8 gap-8 items-center">
+        <p class="text-white">“Shopify was my knight in shining armor when I exhausted every other possibility of getting my online store up and running. It was stunningly easy to use, with more features and plug-ins that I didn’t even know I wanted.”
+        </p>
+        <img src="assets/logo-alicia-souza-small.png" class="w-32">
+        <span class="text-base">Alicia | Alicia Souza</span>
+      </div>
+    </div>
+    <div class="brands flex flex-wrap gap-12 py-12 justify-center">
+      <img src="assets/bajaao-small.png" class="w-16">
+      <img src="assets/johnjacobs-small.png" class="w-16">
+      <img src="assets/kylie-small.png" class="w-16">
+      <img src="assets/nush-small.webp" class="w-16">
+      <img src="assets/yogabar-small.webp" class="w-16">
+      <img src="assets/starstruck-small.png" class="w-16">
+      <img src="assets/mcaffeine-small.png" class="w-16">
+    </div>
+    </section>
+    <section class="help bg-skin py-8 px-4 flex flex-col gap-8">
+      <div class="text">
+      <h1 class="text-3xl whitespace-pre-line">
+        Get the help you need, 
+        every step of the way
+      </h1>
+      <div class="textdivs flex flex-wrap gap-8 items-center">
+        <div class="text-1 space-y-4 my-8 w-[100%] max-w-xs">
+          <h1 class="text-black text-base font-bold">
+            Shopify Support
+          </h1>
+          <p class="text-base text-[#6b7177]">
+            Contact Support 24/7, whether you are troubleshooting issues or looking for business advice.
+          </p>
+          <span class="text-lightgreen text-base font-bold">
+            Contact Support <i class="fa-solid fa-arrow-right"></i>
+          </span>
+        </div>
+        <div class="text-2 space-y-4 w-[100%] max-w-xs">
+          <h1 class="text-black text-base font-bold">
+            Shopify App Store
+          </h1>
+          <p class="text-base text-[#6b7177]">
+            Add features and functionality to your business with 6,000+ apps that integrate directly with Shopify.
+          </p>
+          <span class="text-lightgreen text-base font-bold">
+            Visit the Shopify App Store <i class="fa-solid fa-arrow-right"></i>
+          </span>
+        </div>
+        <div class="text-3 space-y-4 w-[100%] max-w-xs">
+          <h1 class="text-black text-base font-bold">
+            Shopify Experts Marketplace
+          </h1>
+          <p class="text-base text-[#6b7177]">
+            Hire a Shopify expert to help you with everything from store setup to SEO.
+          </p>
+          <span class="text-lightgreen text-base font-bold">
+            Explore the Shopify Experts Marketplace <i class="fa-solid fa-arrow-right"></i>
+          </span>
+        </div>
+      </div>
+    </div>
+    <div class="image">
+      <img src="assets/help.webp">
+    </div>
+    </section>
+    <section class="start flex flex-col justify-center px-8 py-16 gap-4">
+      <h1 class="text-black text-3xl text-center text-greyish">
+        Start Your Business journey with Shopify
+      </h1>
+      <p class="text-[#6b7177]  text-center text-xl">
+        Try Shopify for free, and explore all the tools and services you need to start, run, and grow your business.
+      </p>
+      <button class="bg-lightgreen px-8 py-4 text-base text-white h-14 w-44 mx-auto rounded shadow-lg"> 
+        Start free trial
+      </button>
+      <span class="mx-auto text-lightgreen font-bold text-xl mt-8">
+        Back To Top <i class="fa-solid fa-arrow-right -rotate-90"></i>
+      </span>
+    </section>
+    <section class="footer bg-darkgreen text-white py-8 px-4">
+      <div class="footer-header flex flex-wrap justify-center pb-3 gap-4 border-b-2 border-[#D2D5D9]/[0.1]">
+        <span class="p-1">About</span>
+        <span class="p-1">Careers</span>
+        <span class="p-1">Press and Media</span>
+        <span class="p-1">Shopify Plus</span>
+        <span class="p-1">Sitemap</span>
+      </div>
+      <div class="footer-list pb-8 grid grid-cols-2 gap-4 py-4 border-b-2 border-[#D2D5D9]/[0.1]">
+        <div class="col1 flex flex-wrap gap-4 h-fit items-end">
+          <div class="list gap-2 flex flex-col">
+            <span class="list-header font-bold text-xl text-white w-fit">
+              Online Store
+            </span>
+            <span class="text-[#b6babf] whitespace-nowrap">
+              Sell Online
+            </span>
+            <span class="text-[#b6babf] whitespace-nowrap">
+              features
+            </span>
+            <span class="text-[#b6babf] whitespace-nowrap">
+              Examples
+            </span>
+            <span class="text-[#b6babf] whitespace-nowrap">
+              Website Builder
+            </span>
+            <span class="text-[#b6babf] whitespace-nowrap">
+              Online Retail
+            </span>
+          </div>
+          <div class="list flex flex-col gap-2 ">
+            <span class="text-[#b6babf] whitespace-nowrap">
+              Ecommerce Website
+            </span>
+            <span class="text-[#b6babf] whitespace-nowrap">
+              Domain Names
+            </span>
+            <span class="text-[#b6babf] whitespace-nowrap">
+              Themes
+            </span>
+            <span class="text-[#b6babf] whitespace-nowrap">
+              Shopping Cart
+            </span>
+            <span class="text-[#b6babf] whitespace-nowrap">
+              Ecommerce Hosting
+            </span>
+          </div>
+          <div class="list flex flex-col gap-2 ">
+            <span class="text-[#b6babf] whitespace-nowrap">
+              Mobile Commerce
+            </span>
+            <span class="text-[#b6babf] whitespace-nowrap">
+              Ecommerce Software
+            </span>
+            <span class="text-[#b6babf] whitespace-nowrap">
+              Online Store Builder
+            </span>
+            <span class="text-[#b6babf] whitespace-nowrap">
+              Dropshipping Business
+            </span>
+            <span class="text-[#b6babf] whitespace-nowrap">
+              Store Themes
+            </span>
+          </div>
+        </div>
+        <div class="col2 flex flex-wrap gap-4">
+            <div class="list gap-2 flex flex-col">
+            <span class="list-header font-bold text-xl text-white whitespace-nowrap">
+              Point Of Sale
+            </span>
+            <span class="text-[#b6babf] whitespace-nowrap">
+              Point of sale
+            </span>
+            <span class="text-[#b6babf] whitespace-nowrap">
+              Features
+            </span>
+          
+            </div>
+            <div class="list  flex flex-col gap-2">
+              <span class="list-header font-bold text-xl text-white whitespace-nowrap">
+                Support
+              </span>
+              <span class="text-[#b6babf] whitespace-nowrap">
+                24/7 support
+              </span>
+              <span class="text-[#b6babf] whitespace-nowrap">
+                Shopify Help Center
+              </span>
+              <span class="text-[#b6babf] whitespace-nowrap">
+                Shopify Community
+              </span>
+              <span class="text-[#b6babf] whitespace-nowrap">
+                Api Documentation
+              </span>
+              <span class="text-[#b6babf] whitespace-nowrap">
+                Free Tools
+              </span>
+              <span class="text-[#b6babf] whitespace-nowrap">
+                Free stock photos
+              </span>
+              <span class="text-[#b6babf] whitespace-nowrap">
+                Website for sale
+              </span>
+              <span class="text-[#b6babf] whitespace-nowrap">
+                Logo maker
+              </span>
+              <span class="text-[#b6babf]">
+                Business name generator
+              </span>
+              <span class="text-[#b6babf] whitespace-nowrap">
+                Research
+              </span>
+              <span class="text-[#b6babf] whitespace-nowrap">
+                Legal
+              </span>
+            </div>
+            <div class="list flex flex-col gap-2">
+              <span class="list-header font-bold text-xl text-white whitespace-nowrap">
+                Shopify
+              </span>
+              <span class="text-[#b6babf] whitespace-nowrap">
+                Contact
+              </span>
+              <span class="text-[#b6babf] whitespace-nowrap">
+                Partner Program
+              </span>
+              <span class="text-[#b6babf] whitespace-nowrap">
+                Affiliate Program
+              </span>
+              <span class="text-[#b6babf] whitespace-nowrap">
+                App developers
+              </span>
+              <span class="text-[#b6babf] whitespace-nowrap">
+                Investors
+              </span>
+              <span class="text-[#b6babf] whitespace-nowrap">
+                Blog Topics
+              </span>
+              <span class="text-[#b6babf] whitespace-nowrap">
+                Community Events
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="socials flex flex-col items-center md:flex-row md:justify-between px-4 py-4">
+        <div class="social-list">
+          <img src="assets/social_6.png" class="cursor-pointer">
+        </div>
+        <div class="space-x-2 flex flex-wrap justify-center">
+          <span class="text-[#b6babf] ">Terms Of Service</span>
+          <span class="text-[#b6babf] ">Privacy Policy</span>
+          <span class="text-[#b6babf] space-x-2"><i class="fa-solid fa-globe"></i> India <i class="fa-solid fa-caret-down"></i></span>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
